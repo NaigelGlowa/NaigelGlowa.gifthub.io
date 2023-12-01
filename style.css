@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+body {
+  font-family: "Advent Pro", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+  overflow: hidden;
+  background-color: #d07104;
+  position: fixed;
+  width: 100%;
+  opacity: 0.5;
+}
+#logo {
+  font-weight: bold;
+  float: left;
+  mix-blend-mode: multiply;
+}
+header li {
+  float: right;
+  font-size: 1.4em;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(mediacv/fond\ photo.gif) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 799px;
+}
+#img {
+  margin: 20%;
+  clip-path: circle(200%);
+  opacity: 0.6;
+}
+#premierTrait {
+  height: 3px;
+  width: 90%;
+  margin: -3px auto;
+  background-color: #ffffff;
+  box-shadow: 1px 3px 2px black;
+}
+h3 {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+/* ***********************PRESENTATION********************** */
+#presentation {
+  background-color: #800080;
+  padding: 10px 0px 100px 0;
+}
+#texteIntro {
+  padding: 0px 20%;
+  text-align: center;
+}
+#para {
+  font-size: 2em;
+}
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
+.imagesPrestations h4 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.imagesPrestations img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+}
+.imagesPrestations img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+/* *************Experience****************** */
+#Experience {
+  background-color: #e55039;
+  padding: 10px 0px 100px 0;
+}
+h2 {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 5em;
+  text-shadow: 1px 3px 2px black;
+}
+h5 {
+  text-align: center;
+  color: rgb(115, 113, 113);
+  font-size: 2em;
+  text-shadow: 1px 3px 2px black;
+}
+h6 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  text-shadow: 1px 3px 2px black;
+}
+#liexp {
+  text-align: center;
+  font-family: cursive;
+  font-size: 1em;
+  padding: 0px 20%;
+}
+/* ****************FORMATION**************** */
+#Formation {
+  background-color: #b34183;
+  padding: 10px 0px 100px 0;
+}
+#soustitre {
+  text-align: center;
+}
+/* ****************FOOTER******************* */
+footer {
+  background-color: #000000;
+  color: #fffae1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+input,
+textarea,
+button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: "Advent Pro", sans-serif;
+  border-radius: 8px;
+}
+textarea {
+  height: 120px;
+}
+button {
+  font-size: 1.5em;
+  background-color: #ff0000;
+}
+button:hover {
+  background-color: #e55039;
+  color: #fffae1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#obj {
+  margin-left: 30px;
+  clear: both;
+  float: left;
+  padding-left: 20px;
+}
+#txt {
+  font-family: cursive;
+  font-size: 1em;
+}
+h4 {
+  text-align: left;
+  color: antiquewhite;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+#comp {
+  margin-left: 30px;
+  clear: both;
+  float: left;
+  padding-left: 20px;
+}
+#skill {
+  background: url(mediacv/Sunset\ On\ A\ Beach\ -\ GIF.gif) no-repeat fixed 50%
+    50%;
+  background-size: cover;
+  height: 500px;
+  padding: 10px 0px 100px 0;
+}
+#findme {
+  background-color: #594b7f;
+  padding: 10px 0px 100px 0;
+  text-align: center;
+}
+#cont {
+  font-family: cursive;
+}
